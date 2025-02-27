@@ -1,0 +1,60 @@
+*{
+    font-family: "Inter", serif;
+}
+.img-fluid {
+    max-width: 21%;
+    height: auto;
+}
+.whatsappbtn {
+    border: 1px solid #27AE60;
+    padding: 8px 16px;
+    color: #27AE60;
+}
+.btn:hover {
+    border: 1px solid #0d7d3c;
+    background-color: #27AE60;
+    color: #fff;
+}
+.callbtn {
+    border: 1px solid #0acefe;
+    padding: 8px 16px;
+    color: #fff;
+    background: linear-gradient(to right,  #0acefe, #2699fb );
+}
+.bannerContent span {
+    color: #2699fb;
+    background: url(../Images/line.svg) no-repeat left 0px bottom -6px;
+    background-size: 100% 30px;
+}
+.bannerContent h1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 42px;
+}
+.bannerContent p, ul{
+    font-size: 22px;
+}
+.bannerContent ul li i {
+   color: #2699fb;
+}
+.bannerContentBtn button:first-child {
+    background: linear-gradient(to right,  #0acefe, #2699fb );
+    color: #fff;
+}
+
+.box {
+    border: 3px solid #2699fb;
+    padding: 30px 30px 14px 30px;
+}
+.border-1 {
+    border: 30px dotted #eee;
+}
+form button {
+    background: linear-gradient(to right,  #0acefe, #2699fb );
+}
+.CounterSection h2 {
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 700;
+    color: #2699fb;
+}

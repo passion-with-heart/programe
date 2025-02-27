@@ -1,0 +1,43 @@
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+            max-width: 1170px;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .mobilebtn {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        justify-content: center !important;
+        left: 0;
+        background-color: #fff;
+        padding: 5px 0;
+    }
+    .whatsappbtn,.callbtn {
+       padding: 7px 15px;
+       font-size: 14px;
+    }
+    .bannerContentBtn {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 24px !important;
+    }
+    .bannerContentBtn button {
+        width: 100% !important;
+    }
+    .bannerContent br {
+        display: none;
+    }
+    .bannerContent span {
+        display: inline-flex;
+    }
+    .bannerContent h1 {
+        font-size: 28px;
+    }
+    .bannerContent p, ul {
+        font-size: 18px;
+    }
+
+}
